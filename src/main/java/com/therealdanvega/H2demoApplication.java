@@ -4,6 +4,7 @@ package com.therealdanvega;
 
 import com.therealdanvega.domain.Post;
 import com.therealdanvega.repository.PostRepository;
+import com.therealdanvega.service.DataLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,9 @@ public class H2demoApplication {
 	//PostRepository
 	@Autowired
 	PostRepository postRepository;
+
+	@Autowired
+	DataLoader dataLoader;
 
 	public static void main(String[] args) {
 

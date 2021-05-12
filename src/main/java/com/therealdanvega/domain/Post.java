@@ -65,7 +65,7 @@ public class Post {
         return author;
     }
 
-    public void setAuthor(Author author) {
+    public void setAuthor(Author author, Author ss) {
         this.author = author;
     }
 
